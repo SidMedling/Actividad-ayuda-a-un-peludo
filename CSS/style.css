@@ -93,7 +93,7 @@
     width: 10%;
 }
 
-img:hover {
+.img_perro:hover {
     max-width: 100%;
     border: aqua 5px solid;
     border-radius: 100%; 
