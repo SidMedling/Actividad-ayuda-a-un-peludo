@@ -15,6 +15,32 @@
 
 
 
+img {
+    
+    justify-content: center;
+    max-width: 100%;
+    border-radius: 100%;    
+}
+
+ 
+h4{
+    justify-content: space-around;  
+    display: table-cell;
+    background-color: rgb(7, 76, 85);
+    color: snow;
+    width: 50%;
+    
+  
+}
+
+a{
+    justify-content: center;
+    max-width: 100%;  
+
+}
+
+
+
 /**Nosotros**/
 
 .segundo-row::before{
@@ -63,14 +89,6 @@
 }
 
 
-
-
-
-
-
-
-
-
 .nosotros_titulo{
 
     color:#018DC8;
@@ -82,11 +100,6 @@
 }
 
 
-
-
-
-
-
 /**Main**/
 
 .main-h2{
@@ -94,18 +107,14 @@
     color: #018DC8 ;
 }
 
-HEAD
+
+
+
+
 /*** pagina 2 perros ***/
 .logo {
     padding: 15px;
     width: 10%;
-}
-
-img {
-    
-    justify-content: center;
-    max-width: 100%;
-    border-radius: 100%;    
 }
 
 img:hover {
@@ -134,16 +143,7 @@ img:hover {
     
 }
 
- 
-h4{
-    justify-content: space-around;  
-    display: table-cell;
-    background-color: rgb(7, 76, 85);
-    color: snow;
-    width: 50%;
-    
-  
-}
+
 
 h4:hover{
     color:#272726;
@@ -163,11 +163,6 @@ h4:hover{
 
 }
 
-a{
-    justify-content: center;
-    max-width: 100%;  
-
-}
 
 /** PAGINA 3****/
 
@@ -175,6 +170,9 @@ img {
     padding: 15px;
     max-width: 100%;  
 }
+
+
+
 .contenido {
     background-color:white;
     display: flex;
@@ -204,6 +202,5 @@ img {
 
 
 
-/**Pagina 2 **/
 
 
