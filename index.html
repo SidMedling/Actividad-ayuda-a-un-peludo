@@ -1,72 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="CSS/normalize.css">
-    <link rel="stylesheet" href="CSS/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="CSS/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    </head>
+    <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid" >
+          <a class="navbar-brand" href="#"><img src="resource/mascotas3.png" alt="imagen-mascotas"> AYUDA A UN PELUDO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
 
-
-<body>
-    <div class="principal">
-        <header class="principal_header">
-            <nav class="navegador ">
-
-                <a class="navegador_a" href="#">Inicio</a>
-                <a class="navegador_a" href="#">Nosotros</a>
-                <a class="navegador_a" href="#">Perros</a>
-                <a class="navegador_a" href="#">Gatos</a>
-                <a class="navegador_a" href="#">Contactos</a>
-
-            </nav> <!-- navegador-->
-        </header>
-        
-        <main class="principal_main contenedor">
-
-            <section class="seccion seccion-1 ">
-                <div class="seccion_elementos centrar-contenido ">
-                    <h2 class="fw-400">Lorem ipsum dolor sit amet.</h2>
-                    
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolores tempora consectetur eligendi blanditiis in alias ratione a sit ad suscipit necessitatibus exercitationem, sint iste soluta minus illum dolor sequi est. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos cum et facilis doloremque eveniet corrupti illum quo, vel illo. Ut eligendi fuga ea id cumque! Alias explicabo quidem nemo ducimus!sequi est. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos cum et facilis doloremque eveniet corrupti illum quo, vel illo. Ut eligendi fuga ea id cumque! Alias explicabo quidem nemo ducimus! </p>
-                </div>
-            </section>
-
-            <section class="seccion seccion-2 centrar-contenido">
-                <h2 class="fw-400">Lorem ipsum dolor sit amet.</h2>
-
-                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolores tempora consectetur eligendi blanditiis in alias ratione a sit ad suscipit necessitatibus exercitationem, sint iste soluta minus illum dolor sequi est. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos cum et facilis doloremque eveniet corrupti illum quo, vel illo. Ut eligendi fuga ea id cumque! Alias explicabo quidem nemo ducimus!sequi est. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos cum et facilis doloremque eveniet corrupti illum quo, vel illo. Ut eligendi fuga ea id cumque! Alias explicabo quidem nemo ducimus! </p>
-                
-            </section>
-
-            <section class="seccion seccion-3 centrar-contenido">
-                <h2 class="fw-400" >Lorem ipsum dolor sit amet.</h2>
-
-                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolores tempora consectetur eligendi blanditiis in alias ratione a sit ad suscipit necessitatibus exercitationem, sint iste soluta minus illum dolor sequi est. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos cum et facilis doloremque eveniet corrupti illum quo, vel illo. Ut eligendi fuga ea id cumque! Alias explicabo quidem nemo ducimus! sequi est. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos cum et facilis doloremque eveniet corrupti illum quo, vel illo. Ut eligendi fuga ea id cumque! Alias explicabo quidem nemo ducimus!</p>
-                
-            </section>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Nosotros</a>
+              </li>
             
-            <section class="seccion seccion-4 centrar-contenido ">
-                <h2 class="fw-400">Lorem ipsum dolor sit amet.</h2>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mascotas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Perros</a></li>
+                  <li><a class="dropdown-item" href="#">Gatos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item disabled" href="#">Ayuda a un Peludo</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">"Una gran acción puede generar un gran cambio"</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+    </nav>
 
-                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolores tempora consectetur eligendi blanditiis in alias ratione a sit ad suscipit necessitatibus exercitationem, sint iste soluta minus illum dolor sequi est. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos cum et facilis doloremque eveniet corrupti illum quo, vel illo. Ut eligendi fuga ea id cumque! Alias explicabo quidem nemo ducimus! 
-                sequi est. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos cum et facilis doloremque eveniet corrupti illum quo, vel illo. Ut eligendi fuga ea id cumque! Alias explicabo quidem nemo ducimus!</p>
-                
-            </section>
+    <div class="margen-50"> </div>
 
 
 
+        
+        <div class="row" >
 
+            <div class="col-lg-2"></div>
 
-        </main>
+            <div class="col-lg-8">
+
+                <div id="carouselExampleSlidesOnly  " class="carousel slide  " data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <img src="resource/imagen2.bmp" class="d-block w-100 " alt="Imagen1">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="resource/imagen2.bmp" class="d-block w-100 " alt="Imagen2">
+                    </div>
+                      <div class="carousel-item  ">
+                        <img src="resource/imagen2.bmp" class="d-block w-100 " alt="imagen3">
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-2"></div>
+        <div>
+
+        </div>
+        </div>
+
     
+
+
+    <div class="margen-50"> 
+   
     </div>
+
+        <h2 class="nosotros_titulo">Nosotros</h2>
+
+        <div class="row">
+
+            <div class="col-lg-3 col-md-6 col-sm-12" >
+        
+              <div class="integrante">
+        
+                <img class="integrante_img" src="resource/persona4.bmp" alt="">
+        
+                <p class="integrante_nombre"> Marcelo Aranda </p>
+        
+                <p class="integrante_ocupacion"> Director</p>
+        
+              </div>
+        
+            </div>
+        
+            <div class="col-lg-3 col-md-6 col-sm-12" >
+        
+              <div class="integrante">
+        
+                <img class="integrante_img" src="resource/persona2.bmp" alt="">
+        
+                <p class="integrante_nombre"> Joaquin Castro </p>
+        
+                <p class="integrante_ocupacion"> Voluntario </p>
+        
+              </div>
+        
+            </div>
+        
+            <div class="col-lg-3 col-md-6 col-sm-12" >
+        
+              <div class="integrante">
+        
+                <img class="integrante_img" src="resource/persona5.bmp" alt="">
+        
+                <p class="integrante_nombre"> Marcela Paredes </p>
+        
+                <p class="integrante_ocupacion"> Cofundadora </p>
+        
+              </div>
+        
+            </div>
+        
+            <div class="col-lg-3 col-md-6 col-sm-12" >
+        
+              <div class="integrante">
+        
+                <img class="integrante_img" src="resource/persona3.bmp" alt="">
+        
+                <p class="integrante_nombre"> Nilda Lopez </p>
+        
+                <p class="integrante_ocupacion"> Coordinadora </p>
+        
+              </div>
+        
+            </div>
+        
+          </div> 
+
+
+
+        <div class="margen-50">
+
+        </div>
+
+
+        
+        <main class="main" > 
+            
+            <div class="row" >
+                
+                <div class="col-lg-12" >
+                
+            
+                    <h2 class="main-h2">Nuestras secciones de ayuda</h2>
+
+                </div> 
+                
+            </div>
+
+            <div class="margen-50"></div>
+
+
+
+            <div class="card mx-auto " style="width: 25rem;">
+                <img src="resource/gato.bmp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ayuda a un Gato</h5>
+                  <a href="#" class="btn btn-primary">Ver Todos</a>
+                </div>
+            </div>
+
+            <div class="margen-50"></div>
+
+
+
+            <div class="card mx-auto " style="width: 25rem;">
+                <img src="resource/perro.bmp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ayuda a un Perro</h5>
+                  <a href="#" class="btn btn-primary">Ver Todos</a>
+                </div>
+            </div>
+
+
+
+                
+        </main>
+
+        <div class="margen-50">
+
+        </div>
+
+
+            
+        <footer class="bg-light text-center text-lg-start">
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <p class="dark-text">Todos los derechos reservados</p>
+          </div>
+          <!-- Copyright -->
+        </footer>
+
+
+
+
 </body>
 </html>
