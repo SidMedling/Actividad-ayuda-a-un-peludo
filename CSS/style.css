@@ -93,3 +93,108 @@
     text-align: center;
     color: #018DC8 ;
 }
+
+/*** pagina 2 perros ***/
+.logo {
+    padding: 15px;
+    width: 10%;
+}
+
+img {
+    
+    justify-content: center;
+    max-width: 100%;
+    border-radius: 100%;    
+}
+
+img:hover {
+    max-width: 100%;
+    border: aqua 5px solid;
+    border-radius: 100%; 
+   
+}
+
+
+.contenedor-lg {
+    display: flex;
+    background-color: ghostwhite;
+    padding: 80px 0;
+    
+    
+}
+.contenedor-lg img{
+    display: flex;
+    background-color: #ffffff;
+    padding: 15px;
+    width: 50%;
+    overflow: hidden;
+    
+    
+    
+}
+
+ 
+h4{
+    justify-content: space-around;  
+    display: table-cell;
+    background-color: rgb(7, 76, 85);
+    color: snow;
+    width: 50%;
+    
+  
+}
+
+h4:hover{
+    color:#272726;
+    display: table-cell;
+    transition: all 0.5s ease;   
+    transform: scale(1.1); 
+       
+
+}
+.redondear{
+    border-radius: 50%;
+}
+
+.alinear{
+    display: flex;
+    flex-direction: column;
+
+}
+
+a{
+    justify-content: center;
+    max-width: 100%;  
+
+}
+
+/** PAGINA 3****/
+
+img {
+    padding: 15px;
+    max-width: 100%;  
+}
+.contenido {
+    background-color:white;
+    display: flex;
+
+    padding: 50px;
+    width: 100%;
+    
+}
+
+.imagen{
+    display: table;
+    padding: 15px;
+    width: 50%;
+    overflow: hidden;
+}
+
+.texto{
+    background-color:white;
+    color:black;
+    display: table-cell;
+    float: left;
+    align-items: middle;
+    width: 300px;
+}
