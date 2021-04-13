@@ -1,4 +1,5 @@
 
+
 /**Utilidades**/
 
 .margen-50{
@@ -200,6 +201,7 @@ img {
 
 .gato_nombre{
     margin-bottom: 40px;
+    font-size: 20px;
 }
 
 .nom_boton_g{
