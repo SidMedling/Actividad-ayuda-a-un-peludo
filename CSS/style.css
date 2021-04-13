@@ -1,0 +1,95 @@
+
+/**Utilidades**/
+
+.margen-50{
+    height: 50px;
+}
+
+.margen-100{
+    height: 100px;
+}
+
+.margen-150{
+    height: 150px;
+}
+
+
+
+/**Nosotros**/
+
+.segundo-row::before{
+
+    content: "";
+    display:block;
+    width:100%;
+    height: 1px;
+    background-color: rgb(211, 209, 209);
+    margin-bottom:20px;
+    
+   
+
+}
+
+.integrante{
+
+    display: flex;
+
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+
+.integrante_img{
+
+    width: 40%;
+
+    padding-top: 3%;
+
+    border-radius: 50%; 
+
+}
+
+
+.integrante_nombre{
+
+    padding-top:10px;
+
+    font-weight: 700;
+
+    color: #018DC8;
+
+}
+
+
+
+
+
+
+
+
+
+
+.nosotros_titulo{
+
+    color:#018DC8;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+
+
+
+
+
+
+/**Main**/
+
+.main-h2{
+    text-align: center;
+    color: #018DC8 ;
+}
