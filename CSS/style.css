@@ -2,6 +2,10 @@
 
 /**Utilidades**/
 
+.margen_b-0{
+    margin-bottom: 0;
+}
+
 .margen-50{
     height: 50px;
 }
@@ -14,9 +18,17 @@
     height: 150px;
 }
 
+.fw-600{
+    font-weight: 600;
+}
 
+.fw-700{
+    font-weight: 700;
+}
 
-
+.color_modelo{
+    color:#018DC8;
+}
 
 
 /**Nosotros**/
